@@ -12,7 +12,7 @@ export default function Hero() {
         <Page sx={{background: 'linear-gradient(90deg, rgb(25, 54, 97) 0%, rgb(25, 54, 97) 50%, rgb(241, 90, 34) 100%)'}}>
             <Grid container className="hero-grid-container">
                 <Grid item xs={3} className="hero-grid-item">
-                    <img src={logo} alt="logo" style={{marginRight: '-50px'}} />
+                    <img src={logo} alt="logo" style={{marginRight: '-50px'}} className="images" />
                 </Grid>
                 <Grid item xs={7} className="hero-grid-item">
                     <Stack sx={{margin: 'auto'}}>

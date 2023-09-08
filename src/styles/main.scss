@@ -1,0 +1,28 @@
+:root {
+    --orange: #F15A22;
+    --shadowOrang: #ECB8A2;
+    --navy: #193661;
+    --lightBlue: #EAF7F6;
+    --lightGray: #E0E4E6;
+}
+
+.images {
+    width: 100%;
+}
+
+///////////////////////
+
+ .simple-box-header {
+    font-size: 42pt !important;
+    font-weight: bold !important;
+    color: var(--orange);
+    text-shadow: 2px 2px var(--shadowOrang);
+    padding: 2vh;
+ }
+
+ .simple-box-body {
+    font-size: 18pt !important;
+    color: var(--navy);
+    text-shadow: var(--navy);
+    padding: 2vh;
+ }
