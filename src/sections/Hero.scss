@@ -1,0 +1,24 @@
+.hero-grid-container{
+    display: flex;
+    height: 90vh;
+
+    & img{
+        rotate: 180deg;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.hero-grid-item {
+    display: flex;
+}
+
+.hero-font {
+    font-family: Alfa Slab One !important;
+    color: white;
+    text-transform: uppercase;
+    line-height: 101px;
+    letter-spacing: 0.042em;
+    text-shadow: 2px -4px white;
+    -webkit-text-stroke: 2px #193661;
+}

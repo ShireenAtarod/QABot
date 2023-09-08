@@ -1,5 +1,8 @@
+import Page from "../components/Page"
 export default function ContactUs() {
     return(
-        <h1>Contact Us</h1>
+        <Page>
+            <h1>Contact us</h1>
+        </Page>
     )
 }
