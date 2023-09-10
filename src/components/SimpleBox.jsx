@@ -6,7 +6,7 @@ export default function SimpleBox(props){
             <Typography align="left" className="simple-box-header">
                 {props.header}
             </Typography>
-            <Typography align="left" className="simple-box-body">
+            <Typography align="left" className="simple-body" color="var(--navy)">
                 {props.body}
             </Typography>
         </Box>

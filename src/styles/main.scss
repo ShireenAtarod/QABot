@@ -6,8 +6,39 @@
     --lightGray: #E0E4E6;
 }
 
+*, *:before, *:after { 
+    -ms-box-sizing:border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.paper {
+    width: 99vw !important;
+    height: 100vh !important;
+    padding: 5vh 5vw;
+  }
+
 .images {
     width: 100%;
+}
+
+.box-vert-mid{
+    display: flex;
+    align-items: center;
+}
+
+.outline-header {
+    font-size: 9em;
+    padding: 2vh;
+    font-weight: 900;
+    -webkit-text-stroke: 4px var(--lightBlue);
+    color: var(--navy);
+    font-family: unset;
 }
 
 ///////////////////////
@@ -20,9 +51,8 @@
     padding: 2vh;
  }
 
- .simple-box-body {
+ .simple-body {
     font-size: 18pt !important;
-    color: var(--navy);
     text-shadow: var(--navy);
     padding: 2vh;
  }

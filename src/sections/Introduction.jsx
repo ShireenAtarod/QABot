@@ -24,7 +24,7 @@ export default function Introduction() {
     return(
         <Page sx={{background: 'var(--lightBlue)'}}>
             <Stack>
-                <Grid container spacing={2} sx={{margin: '5vw', width: 'auto', height: '58vh'}}>
+                <Grid container spacing={2} sx={{ width: 'auto', height: '58vh'}}>
                     {contects.map((content) => {
                         return(
                             <Grid item xs={4}>
