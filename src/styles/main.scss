@@ -1,7 +1,8 @@
 :root {
     --orange: #F15A22;
-    --shadowOrang: #ECB8A2;
+    --shadowOrange: #ECB8A2;
     --navy: #193661;
+    --shadowNavy: #96AABB;
     --lightBlue: #EAF7F6;
     --lightGray: #E0E4E6;
 }
@@ -22,6 +23,7 @@ html {
     height: 100vh !important;
     padding: 5vh 5vw;
     box-shadow: none !important;
+    border-radius: 0 !important;
   }
 
 .images {
@@ -43,8 +45,8 @@ html {
 }
 
 .svg-container {
-    width: 55px;
-    height: 55px;
+    width: 20%;
+    height: auto;
 
     & svg { 
         width: 100%;
@@ -58,15 +60,51 @@ html {
 ///////////////////////
 
  .simple-header {
-    font-size: 42pt !important;
+    font-size: 3em !important;
     font-weight: bold !important;
-    color: var(--orange);
-    text-shadow: 2px 2px var(--shadowOrang);
     padding: 2vh;
+
+    &.big {
+        font-size: 5.5em !important;
+    }
  }
 
  .simple-body {
-    font-size: 18pt !important;
+    font-size: 2em !important;
     text-shadow: var(--navy);
     padding: 2vh;
+ }
+
+
+ //////////////////////
+ 
+ .client-box {
+    border-radius: 7px !important;
+    background: var(--lightBlue);
+    padding: 5px;
+
+    &.b0{
+        box-shadow: -7px 7px var(--lightGray) !important;
+    }
+
+    &.b1{
+        box-shadow: 7px -7px var(--lightGray) !important;
+    }
+
+    &.b2{
+        box-shadow: -7px -7px var(--lightGray) !important;
+    }
+
+}
+
+
+ .client-image{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    &.images{
+        border-radius: 50%;
+    }
  }

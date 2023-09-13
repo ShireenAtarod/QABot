@@ -28,7 +28,7 @@ export default function Introduction() {
                     {contects.map((content) => {
                         return(
                             <Grid item xs={4}>
-                                <SimpleBox header={content.header} body={content.body} />
+                                <SimpleBox header={content.header} body={content.body} sx={{color: 'var(--orange)', textShadow: '2px 2px var(--shadowOrange)' }} />
                             </Grid>
                         )
                     })}
