@@ -15,7 +15,7 @@ export default function Clients() {
     ]
 
     return(
-        <Page sx={{background: 'var(--lightBlue)'}}>
+        <Page sx={{background: 'var(--lightBlue)', zIndex: '2'}}>
             <Typography className='simple-header big' sx={{color: 'var(--navy)', textShadow: '2px 2px var(--shadowNavy)'}}>
                 Our Projects
             </Typography>

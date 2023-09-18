@@ -9,7 +9,7 @@ import BugIcon from '../assets/QAbug.png'
 
 export default function ContactUs() {
     return(
-        <Page>
+        <Page sx={{background: 'var(--lightBlue)'}}>
             <img src={BugIcon} className="contact-us-bug" />
             <Stack>
                 <Typography 
