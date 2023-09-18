@@ -15,7 +15,7 @@ export default function AboutUs() {
                             About Us
                         </Typography>
                         <Typography className='simple-body' color="var(--lightBlue)" align='justify'>
-                            Write a paragraph that talks about your company here. You can talk about your company's background, history, mission, vision, or philosophy. Anything that will introduce your brand's persona to your clients. This will help build a connection between you and them, that hopefully leads into a working relationship.
+                            The QA-Bot Team: build-opration-transfromation was established with a clear vision in mind - to revolutionize the QA and test industry. With years of experience and expertise, we have developed a strong presence in the market, successfully assisting businesses in achieving their digital transformation goals. Our journey began with a passion for quality assurance and a commitment to delivering exceptional web, API, and mobile platform experiences.
                         </Typography>
                     </Stack>
                 </Grid>

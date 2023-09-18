@@ -21,6 +21,7 @@ html {
 .paper {
     width: 99vw !important;
     height: 100vh !important;
+    position: relative;
     padding: 5vh 5vw;
     box-shadow: none !important;
     border-radius: 0 !important;
@@ -35,13 +36,25 @@ html {
     align-items: center;
 }
 
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+
+    &.column{
+        flex-direction: column;
+    }
+    & a{
+        color: var(--lightBlue) !important;
+    }
+}
+
 .outline-header {
-    font-size: 9em;
+    font-size: 7em !important;
     padding: 2vh;
-    font-weight: 900;
+    font-weight: 900 !important;
     -webkit-text-stroke: 4px var(--lightBlue);
     color: var(--navy);
-    font-family: unset;
+    font-family: unset !important;
 }
 
 .svg-container {
@@ -65,12 +78,12 @@ html {
     padding: 2vh;
 
     &.big {
-        font-size: 5.5em !important;
+        font-size: 4.5em !important;
     }
  }
 
  .simple-body {
-    font-size: 2em !important;
+    font-size: 1.5em !important;
     text-shadow: var(--navy);
     padding: 2vh;
  }
@@ -107,4 +120,24 @@ html {
     &.images{
         border-radius: 50%;
     }
+ }
+
+ //////////////////////
+
+ .contact-us-box-cotainer{
+    position: absolute;
+    bottom: 10vh;
+    right: 2vw;
+    width: 90% !important;
+    color: var(--lightBlue);
+ }
+
+ .contact-us-bug{
+    position: absolute;
+    width: 30vw;
+    right: -10vw;
+    top: -13vh;
+    rotate: 228deg;
+    z-index: 1;
+    opacity: 80%;
  }

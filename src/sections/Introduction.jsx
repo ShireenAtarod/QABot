@@ -9,15 +9,15 @@ export default function Introduction() {
     const contects = [
         {
             header: 'Build',
-            body: 'Give a detailed description of the service being provided here.'
+            body: 'From Consultation to Precision Testing: Crafting Quality in Every Step'
         },
         {
             header: 'Operation',
-            body: 'Give a detailed description of the service being provided here.'
+            body: 'Proactively Pioneering Efficiency in Your Digital Ecosystem.'
         },
         {
             header: 'Transfer',
-            body: 'Give a detailed description of the service being provided here.'
+            body: 'Reviewing Success, Forging a Structured Future: QA Excellence in Knowledge Transfer'
         }
     ]
 

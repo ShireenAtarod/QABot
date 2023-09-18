@@ -17,7 +17,7 @@ export default function Clients() {
     return(
         <Page sx={{background: 'var(--lightBlue)'}}>
             <Typography className='simple-header big' sx={{color: 'var(--navy)', textShadow: '2px 2px var(--shadowNavy)'}}>
-                Hear From Our Clients
+                Our Projects
             </Typography>
             <Grid container spacing={7}>
                 {data.map((client, index) => {
